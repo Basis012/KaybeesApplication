@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/appcolor"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+<soup.neumorphism.NeumorphCardView
+    android:layout_width="match_parent"
+    android:layout_height="240dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <androidx.cardview.widget.CardView
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       app:cardCornerRadius="50dp"
+    android:layout_centerHorizontal="true"
+       android:layout_marginTop="15dp">
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:scaleType="fitXY"
+           android:src="@drawable/fastfood"
+           android:id="@+id/recycleimage"/>
+   </androidx.cardview.widget.CardView>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp"
+        android:id="@+id/recycleimg"
+        android:layout_alignParentRight="true"
+        android:background="@color/appcolor"
+        android:src="@drawable/ic_baseline_shopping_cart_24"/>
+</RelativeLayout>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Beef Burger"
+           android:id="@+id/title"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif"
+         android:layout_marginTop="120dp"
+         android:layout_centerHorizontal="true"
+           android:textColor="@color/textcolor" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="cQuan: 1"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif"
+           android:textColor="@color/textcolor"
+           android:id="@+id/quantity"
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="155dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="400"
+           android:paddingRight="10dp"
+           android:id="@+id/cdprice"
+           android:fontFamily="sans-serif"
+           android:textStyle="bold"
+           android:textColor="@color/textcolor"
+         android:gravity="end"
+           android:layout_marginTop="155dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="400"
+           android:id="@+id/cprice"
+           android:paddingRight="10dp"
+           android:gravity="end"
+           android:layout_marginTop="175dp"/>
+   </RelativeLayout>
+</soup.neumorphism.NeumorphCardView>
+</LinearLayout>

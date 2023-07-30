@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "327373711779",
+    "firebase_url": "https://kaybees-project-default-rtdb.firebaseio.com",
+    "project_id": "kaybees-project",
+    "storage_bucket": "kaybees-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327373711779:android:06332d54366d96b975d216",
+        "android_client_info": {
+          "package_name": "com.newkaybees_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327373711779-1mv1e2bl4rtah9sp6d566k674cptlod6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzmTXCzLHM6-uqs5HETqRn2TPC9jomsys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327373711779-1mv1e2bl4rtah9sp6d566k674cptlod6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

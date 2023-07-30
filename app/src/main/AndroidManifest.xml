@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/kaybees_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/kaybees_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kaybees_Project"
+        tools:targetApi="31">
+        <activity
+            android:name=".CheckOutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditTaste"
+            android:exported="false" />
+        <activity
+            android:name=".Consumer.UserDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.Signup_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.Signin_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
